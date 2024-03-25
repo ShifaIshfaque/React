@@ -1,10 +1,13 @@
-
+import Start from "./start"
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const username = "Tm or mai"
+ 
   return (
-    <h1>Hello react with Vite</h1>
+    <>
+     <Start/>
+     <h1>React or chai {username}</h1>
+    </>
   )
 }
 
