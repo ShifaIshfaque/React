@@ -4,12 +4,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const items = ['Apple', 'Banana', 'Orange', 'Grapes'];
+  const items = ['HTML', 'Javascript', 'React JS', 'Typescript'];
   const [selectedItem, setSelectedItem] = useState(null);
 
   return (
     <div>
-      <h1>List of Fruits</h1>
+      <h1>List of Languages</h1>
       <ul>
       {/* This code maps over each item in the items array. For each item, it generates a list item (<li>) with a unique key based on the item itself. Inside each list item, it displays the item's name and a button labeled "Select". When the button is clicked, it sets the selected item to the current item. */}
         {items.map(item => (
@@ -19,7 +19,7 @@ function App() {
           </li>
         ))}
       </ul>
-      <p>Selected Item: {selectedItem}</p>
+      <p>Select Language: {selectedItem}</p>
     </div>
   );
 }
