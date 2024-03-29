@@ -78,7 +78,7 @@ function App() {
               id='numberInput'
               onChange={() => setCharAllowed(prev => !prev)}
             />
-            <label htmlFor="numberInput">CharAllowed</label>
+            <label htmlFor="numberInput">Character Allowed</label>
           </div>
         </div>
 
