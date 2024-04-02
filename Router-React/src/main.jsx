@@ -38,6 +38,11 @@ const router = createBrowserRouter([
        element: <Github />
       //   loader: { githubInfoLoader } // This part might be incorrect, check the syntax
        }
+      //  {
+      //   path: "github",
+      //  element: <Github />
+      // //   loader: { githubInfoLoader } // This part might be incorrect, check the syntax
+      //  }
     ]
 
 

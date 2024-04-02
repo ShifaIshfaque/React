@@ -7,13 +7,13 @@ export default function About() {
               <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                   <div className="md:5/12 lg:w-5/12">
                       <img
-                          src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png"
+                          src="https://miro.medium.com/v2/resize:fit:1400/1*YZ2fsT9k1CmlMil-Fda0Zg.png"
                           alt="image"
                       />
                   </div>
                   <div className="md:7/12 lg:w-6/12">
                       <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
-                          React development is carried out by passionate developers
+                      Building the future, one component at a time
                       </h2>
                       <p className="mt-6 text-gray-600">
                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
